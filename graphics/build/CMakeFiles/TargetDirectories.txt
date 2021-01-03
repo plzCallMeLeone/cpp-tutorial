@@ -1,0 +1,3 @@
+/home/aurora/projects/cpp/graphics/build/CMakeFiles/rebuild_cache.dir
+/home/aurora/projects/cpp/graphics/build/CMakeFiles/graphics.dir
+/home/aurora/projects/cpp/graphics/build/CMakeFiles/edit_cache.dir

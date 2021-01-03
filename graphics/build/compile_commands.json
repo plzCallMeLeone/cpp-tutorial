@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/aurora/projects/cpp/graphics/build",
+  "command": "/bin/clang++    -o CMakeFiles/graphics.dir/src/main.cxx.o -c /home/aurora/projects/cpp/graphics/src/main.cxx",
+  "file": "/home/aurora/projects/cpp/graphics/src/main.cxx"
+},
+{
+  "directory": "/home/aurora/projects/cpp/graphics/build",
+  "command": "/bin/clang++    -o CMakeFiles/graphics.dir/src/Lines.cxx.o -c /home/aurora/projects/cpp/graphics/src/Lines.cxx",
+  "file": "/home/aurora/projects/cpp/graphics/src/Lines.cxx"
+}
+]

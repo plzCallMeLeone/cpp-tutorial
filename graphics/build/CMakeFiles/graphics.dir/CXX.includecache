@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/aurora/projects/cpp/graphics/src/includes/Lines.hpp
+SFML/Graphics/Drawable.hpp
+-
+SFML/Graphics.hpp
+-
+SFML/Graphics/PrimitiveType.hpp
+-
+SFML/Graphics/Vertex.hpp
+-
+initializer_list
+-
+
+/home/aurora/projects/cpp/graphics/src/main.cxx
+SFML/Graphics.hpp
+-
+SFML/Graphics/CircleShape.hpp
+-
+SFML/Graphics/Drawable.hpp
+-
+SFML/Graphics/RectangleShape.hpp
+-
+includes/Lines.hpp
+/home/aurora/projects/cpp/graphics/src/includes/Lines.hpp
+iostream
+-
+
