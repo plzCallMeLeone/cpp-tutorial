@@ -1,1 +1,1 @@
-/bin/clang++ CMakeFiles/graphics.dir/src/main.cxx.o CMakeFiles/graphics.dir/src/Lines.cxx.o -o graphics  -lsfml-graphics -lsfml-window -lsfml-system 
+/usr/bin/c++ CMakeFiles/graphics.dir/src/main.cxx.o CMakeFiles/graphics.dir/src/Lines.cxx.o -o graphics  -lsfml-graphics -lsfml-window -lsfml-system 

@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/aurora/projects/cpp/graphics/src/Lines.cxx" "/home/aurora/projects/cpp/graphics/build/CMakeFiles/graphics.dir/src/Lines.cxx.o"
-  "/home/aurora/projects/cpp/graphics/src/main.cxx" "/home/aurora/projects/cpp/graphics/build/CMakeFiles/graphics.dir/src/main.cxx.o"
+  "/home/leone/projects/cpp-tutorial/graphics/src/Lines.cxx" "/home/leone/projects/cpp-tutorial/graphics/build/CMakeFiles/graphics.dir/src/Lines.cxx.o"
+  "/home/leone/projects/cpp-tutorial/graphics/src/main.cxx" "/home/leone/projects/cpp-tutorial/graphics/build/CMakeFiles/graphics.dir/src/main.cxx.o"
   )
-set(CMAKE_CXX_COMPILER_ID "Clang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

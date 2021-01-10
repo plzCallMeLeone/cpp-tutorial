@@ -67,10 +67,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/aurora/projects/cpp/graphics
+CMAKE_SOURCE_DIR = /home/leone/projects/cpp-tutorial/graphics
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/aurora/projects/cpp/graphics/build
+CMAKE_BINARY_DIR = /home/leone/projects/cpp-tutorial/graphics/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/aurora/projects/cpp/graphics/build/CMakeFiles /home/aurora/projects/cpp/graphics/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leone/projects/cpp-tutorial/graphics/build/CMakeFiles /home/leone/projects/cpp-tutorial/graphics/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/aurora/projects/cpp/graphics/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leone/projects/cpp-tutorial/graphics/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

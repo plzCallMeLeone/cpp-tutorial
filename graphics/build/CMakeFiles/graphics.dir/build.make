@@ -62,10 +62,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/aurora/projects/cpp/graphics
+CMAKE_SOURCE_DIR = /home/leone/projects/cpp-tutorial/graphics
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/aurora/projects/cpp/graphics/build
+CMAKE_BINARY_DIR = /home/leone/projects/cpp-tutorial/graphics/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/graphics.dir/depend.make
@@ -78,29 +78,29 @@ include CMakeFiles/graphics.dir/flags.make
 
 CMakeFiles/graphics.dir/src/main.cxx.o: CMakeFiles/graphics.dir/flags.make
 CMakeFiles/graphics.dir/src/main.cxx.o: ../src/main.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aurora/projects/cpp/graphics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/graphics.dir/src/main.cxx.o"
-	/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graphics.dir/src/main.cxx.o -c /home/aurora/projects/cpp/graphics/src/main.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leone/projects/cpp-tutorial/graphics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/graphics.dir/src/main.cxx.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graphics.dir/src/main.cxx.o -c /home/leone/projects/cpp-tutorial/graphics/src/main.cxx
 
 CMakeFiles/graphics.dir/src/main.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/graphics.dir/src/main.cxx.i"
-	/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aurora/projects/cpp/graphics/src/main.cxx > CMakeFiles/graphics.dir/src/main.cxx.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leone/projects/cpp-tutorial/graphics/src/main.cxx > CMakeFiles/graphics.dir/src/main.cxx.i
 
 CMakeFiles/graphics.dir/src/main.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graphics.dir/src/main.cxx.s"
-	/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aurora/projects/cpp/graphics/src/main.cxx -o CMakeFiles/graphics.dir/src/main.cxx.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leone/projects/cpp-tutorial/graphics/src/main.cxx -o CMakeFiles/graphics.dir/src/main.cxx.s
 
 CMakeFiles/graphics.dir/src/Lines.cxx.o: CMakeFiles/graphics.dir/flags.make
 CMakeFiles/graphics.dir/src/Lines.cxx.o: ../src/Lines.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aurora/projects/cpp/graphics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/graphics.dir/src/Lines.cxx.o"
-	/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graphics.dir/src/Lines.cxx.o -c /home/aurora/projects/cpp/graphics/src/Lines.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leone/projects/cpp-tutorial/graphics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/graphics.dir/src/Lines.cxx.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graphics.dir/src/Lines.cxx.o -c /home/leone/projects/cpp-tutorial/graphics/src/Lines.cxx
 
 CMakeFiles/graphics.dir/src/Lines.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/graphics.dir/src/Lines.cxx.i"
-	/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aurora/projects/cpp/graphics/src/Lines.cxx > CMakeFiles/graphics.dir/src/Lines.cxx.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leone/projects/cpp-tutorial/graphics/src/Lines.cxx > CMakeFiles/graphics.dir/src/Lines.cxx.i
 
 CMakeFiles/graphics.dir/src/Lines.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graphics.dir/src/Lines.cxx.s"
-	/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aurora/projects/cpp/graphics/src/Lines.cxx -o CMakeFiles/graphics.dir/src/Lines.cxx.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leone/projects/cpp-tutorial/graphics/src/Lines.cxx -o CMakeFiles/graphics.dir/src/Lines.cxx.s
 
 # Object files for target graphics
 graphics_OBJECTS = \
@@ -114,7 +114,7 @@ graphics: CMakeFiles/graphics.dir/src/main.cxx.o
 graphics: CMakeFiles/graphics.dir/src/Lines.cxx.o
 graphics: CMakeFiles/graphics.dir/build.make
 graphics: CMakeFiles/graphics.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/aurora/projects/cpp/graphics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable graphics"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/leone/projects/cpp-tutorial/graphics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable graphics"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/graphics.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -127,6 +127,6 @@ CMakeFiles/graphics.dir/clean:
 .PHONY : CMakeFiles/graphics.dir/clean
 
 CMakeFiles/graphics.dir/depend:
-	cd /home/aurora/projects/cpp/graphics/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aurora/projects/cpp/graphics /home/aurora/projects/cpp/graphics /home/aurora/projects/cpp/graphics/build /home/aurora/projects/cpp/graphics/build /home/aurora/projects/cpp/graphics/build/CMakeFiles/graphics.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/leone/projects/cpp-tutorial/graphics/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leone/projects/cpp-tutorial/graphics /home/leone/projects/cpp-tutorial/graphics /home/leone/projects/cpp-tutorial/graphics/build /home/leone/projects/cpp-tutorial/graphics/build /home/leone/projects/cpp-tutorial/graphics/build/CMakeFiles/graphics.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/graphics.dir/depend
 
