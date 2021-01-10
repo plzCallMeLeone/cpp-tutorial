@@ -1,6 +1,6 @@
 /*
  Simple Linked List Implementation using pointer. ver 0.0.0.1
- This Implementation might be dangerous to use because it couldn't handle error properly.
+ This Implementation might be dangerous to use because it can't handle error properly.
 */
 
 #include <iostream>
